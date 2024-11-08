@@ -3,6 +3,13 @@ const numberKm = document.getElementById("number-km");
 const passengerAge = document.getElementById("passenger-age");
 // console.log(formTicket, numberKm, passengerAge)
 
+const nameCard = document.getElementById("username-card");
+const discountPrice = document.getElementById("discount");
+const carriageNum = document.getElementById("carriage");
+const codeCp = document.getElementById("code-cp");
+const ticketPrice = document.getElementById("ticket-price");
+// console.log(nameCard, discountPrice, carriageNum, codeCp, ticketPrice)
+
 formTicket.addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -23,5 +30,6 @@ formTicket.addEventListener("submit", function(event) {
 
     price = price.toFixed(2);
     // console.log(price)
-    
+
+
 })
